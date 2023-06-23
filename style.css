@@ -1,0 +1,182 @@
+.page {
+    background-color: #2A2C2F;
+    min-width: 1280px;
+    max-width: none;
+    margin: 0;
+    font-family: 'Inter', Arial, sans-serif;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+.header__logo {
+    position: absolute;
+    left: 48px;
+    top: 28px;
+}
+
+.header__lang-link {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 117%;
+    text-align: right;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+    margin: 0;
+    margin-top: 46px;
+    margin-right: 18px;
+}
+
+.header__lang-link:last-child {
+    text-decoration: none;
+}
+
+.lead__title {
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 136px;
+    text-align: center;
+    width: 720px;
+    height: 200px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 104%;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.lead__container {
+    margin-top: 64px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+}
+
+.lead__subtitle {
+    margin: 0;
+    margin-top: 32px;
+    margin-left: auto;
+    margin-right: auto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 120%;
+    text-align: center;
+    color: #FFFFFF;
+    width: 540px;
+    height: 72px;
+}
+
+.lead__caption {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 140%;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+
+.intro__title {
+    margin: 0;
+    margin-top: 92px;
+    margin-left: 148px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 54px;
+    line-height: 107%;
+    color: #FFFFFF;
+}
+
+.intro__text {
+    margin-left: 148px;
+    margin-top: 40px;
+    width: 690px;
+    height: 204px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 163%;
+    color: #FFFFFF;
+}
+
+.intro__list {
+    margin: 0;
+    margin-top: 37px;
+    margin-left: 148px;
+    width: 690px;
+    height: 90px;
+    padding: 0;
+}
+
+.intro__list-text {
+    list-style-type: none;
+    color: #FFF;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 18px;
+}
+
+@font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url("Inter-Regular.woff2?v=3.19") format("woff2"),
+        url("Inter-Regular.woff?v=3.19") format("woff");
+}
+
+@font-face {
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 400;
+    font-display: swap;
+    src: url("Inter-Italic.woff2?v=3.19") format("woff2"),
+        url("Inter-Italic.woff?v=3.19") format("woff");
+}
+
+@font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url("Inter-Bold.woff2?v=3.19") format("woff2"),
+        url("Inter-Bold.woff?v=3.19") format("woff");
+}
+
+@font-face {
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 700;
+    font-display: swap;
+    src: url("Inter-BoldItalic.woff2?v=3.19") format("woff2"),
+        url("Inter-BoldItalic.woff?v=3.19") format("woff");
+}
+
+
+@font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-display: swap;
+    src: url("Inter-Black.woff2?v=3.19") format("woff2"),
+        url("Inter-Black.woff?v=3.19") format("woff");
+}
+
+@font-face {
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 900;
+    font-display: swap;
+    src: url("Inter-BlackItalic.woff2?v=3.19") format("woff2"),
+        url("Inter-BlackItalic.woff?v=3.19") format("woff");
+}
