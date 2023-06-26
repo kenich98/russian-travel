@@ -1,0 +1,7 @@
+.place__paragraphs {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    margin: 0;
+    margin-left: 40px;
+}

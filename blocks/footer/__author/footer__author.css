@@ -1,0 +1,9 @@
+.footer__author {
+    margin: 0;
+    padding: 0;
+    color: #FFF;
+    text-align: right;
+    font-size: 14px;
+    font-family: Inter;
+    line-height: 1.1;
+}

@@ -1,0 +1,8 @@
+.lead__image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 64px;
+    margin-bottom: 0;
+    width: 84%;
+}
