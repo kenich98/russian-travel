@@ -3,9 +3,24 @@
     margin-bottom: 80px;
     display: grid;
     grid-template-columns: 460px 1fr;
-    min-width: 1280px;
+    max-width: 984px;
+    width: 100%;
 }
 
 .place:last-child {
     margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+    .place {
+        margin-bottom: 73px;
+        grid-template-columns: 360px 1fr;
+    }
+}
+
+@media (max-width: 320px) {
+    .place {
+        margin-bottom: 50px;
+        grid-template-columns: 1fr;
+    }
 }

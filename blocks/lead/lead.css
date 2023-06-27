@@ -1,9 +1,18 @@
 .lead {
+    margin: 0;
     margin-top: 56px;
-    padding: 0;
     margin-left: auto;
     margin-right: auto;
+    padding: 0;
     max-width: 984px;
     color: #fff;
     box-sizing: border-box;
+    align-items: center;
+}
+
+@media (max-width: 1024px) {
+    .lead {
+        max-width: 928px;
+        width: 100%;
+    }
 }

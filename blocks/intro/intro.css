@@ -1,6 +1,23 @@
 .intro {
     max-width: 984px;;
     box-sizing: border-box;
-    margin: 92px auto;
+    margin-top: 92px;
+    margin-left: auto;
+    margin-right: auto;
     padding: 0;
+}
+
+@media (max-width: 1024px) {
+    .intro {
+        max-width: 928px;
+        width: 100%;
+        margin-top: 88px;
+    }
+}
+
+@media (max-width: 320px) {
+    .intro {
+        max-width: 288px;
+        width: 100%;
+    }
 }

@@ -7,3 +7,18 @@
     margin-right: 48px;
     margin-bottom: 24px;
 }
+
+@media (max-width: 768px) {
+    .footer__container {
+        margin-left: 24px;
+        margin-right: 24px;
+    }
+}
+
+@media (max-width: 320px) {
+    .footer__container {
+        max-width: 186px;
+        display: flex;
+        flex-direction: column;
+    }
+}

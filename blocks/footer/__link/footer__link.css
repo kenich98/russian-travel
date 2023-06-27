@@ -7,3 +7,14 @@
     padding-right: 18px;
     margin: 0;
 }
+
+@media (max-width: 320px) {
+    .footer__link {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 32px;
+    }
+    .footer__link:last-child {
+        padding-bottom: 0;
+    }
+}
