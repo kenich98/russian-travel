@@ -7,4 +7,5 @@
 
 .header__lang-button:last-child {
   margin-right: 0;
+  padding-right: 48px;
 }
