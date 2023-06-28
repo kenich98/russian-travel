@@ -19,9 +19,14 @@
         max-width: 340px;
         font-size: 42px;
     }
+
+    .place__title:first-child {
+        padding-right: 30px;
+        line-height: 46px;
+    }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 618px) {
     .place__title {
         max-width: 288px;
         font-size: 32px;

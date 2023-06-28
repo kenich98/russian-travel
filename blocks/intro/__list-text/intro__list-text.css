@@ -5,3 +5,11 @@
     font-weight: 700;
     line-height: 18px;
 }
+
+@media (max-width: 768px) {
+    .intro__list-text {
+        padding: 0;
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+}

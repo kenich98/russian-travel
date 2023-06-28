@@ -1,0 +1,21 @@
+.footer {
+    margin-left: 48px;
+    margin-right: 48px;
+    margin-bottom: 24px;
+}
+
+@media (max-width: 768px) {
+    .footer {
+        margin-left: 24px;
+        margin-right: 24px;
+    }
+}
+
+@media (max-width: 340px) {
+    .footer {
+        margin-right: 0;
+        margin-left: 16px;
+        max-width: 186px;
+        width: 100%;
+    }
+}

@@ -8,13 +8,13 @@
     margin-right: 18px;
 }
 
-@media (max-width: 320px) {
+@media (max-width: 724px) {
     .footer__link {
         display: flex;
         flex-direction: column;
-        padding-bottom: 32px;
+        margin-bottom: 32px;
     }
     .footer__link:last-child {
-        padding-bottom: 0;
+        margin-bottom: 0;
     }
 }
