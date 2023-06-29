@@ -11,14 +11,14 @@
     margin-bottom: 0;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 940px) {
     .place {
         margin-bottom: 73px;
         grid-template-columns: 360px 1fr;
     }
 }
 
-@media (max-width: 618px) {
+@media (max-width: 740px) {
     .place {
         margin-bottom: 50px;
         grid-template-columns: 1fr;

@@ -12,7 +12,7 @@
     max-width: 540px;
 }
 
-@media (max-width: 691px) {
+@media (max-width: 767px) {
     .lead__subtitle {
         max-width: 288px;
         width: 100%;

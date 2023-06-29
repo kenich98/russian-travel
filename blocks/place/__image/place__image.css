@@ -12,18 +12,16 @@
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 940px) {
     .place__image {
         max-width: 340px;
         max-height: 340px;
     }
 }
 
-@media (max-width: 618px) {
+@media (max-width: 740px) {
     .place__image {
         max-width: 320px;
-        width: 100%;
         max-height: 320px;
-        height: 100%;
     }
 }

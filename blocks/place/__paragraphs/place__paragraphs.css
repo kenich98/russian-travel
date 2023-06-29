@@ -15,18 +15,16 @@
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 940px) {
     .place__paragraphs {
         max-width: 352px;
         margin-left: 28px;
     }
 }
 
-@media (min-width: 320px) and (max-width: 618px)  {
+@media (max-width: 740px) {
     .place__paragraphs {
         margin: 0;
-        margin-left: auto;
-        margin-right: auto;
         margin-top: 32px;
         max-width: 288px;
     }

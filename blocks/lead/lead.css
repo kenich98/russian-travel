@@ -5,6 +5,7 @@
     margin-right: auto;
     padding: 0;
     max-width: 984px;
+    width: 100%;
     color: #fff;
     box-sizing: border-box;
     align-items: center;
@@ -14,5 +15,14 @@
     .lead {
         max-width: 928px;
         width: 100%;
+        margin-left: 48px;
+        margin-right: 48px;
+    }
+}
+
+@media (max-width: 1023px) {
+    .lead {
+        margin-left: auto;
+        margin-right: auto;
     }
 }
