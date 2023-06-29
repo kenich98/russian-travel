@@ -26,3 +26,9 @@
         margin-right: auto;
     }
 }
+
+@media (max-width: 767px) {
+    .lead {
+        margin-top: 0;
+    }
+}

@@ -7,3 +7,9 @@
     padding-top: 64px;
     display: block;
 }
+
+@media (max-width: 767px) {
+    .lead__image {
+        padding-top: 40px;
+    }
+}
