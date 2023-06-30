@@ -4,7 +4,6 @@
     display: grid;
     grid-template-columns: 460px 1fr;
     max-width: 984px;
-    width: 100%;
 }
 
 .place:last-child {
@@ -15,11 +14,19 @@
     .place {
         margin-bottom: 73px;
         grid-template-columns: 360px 1fr;
+        padding-left: 10px;
     }
+}
+
+@media (max-width: 768px) {
+    .place {
+        padding: 0;
+    };
 }
 
 @media (max-width: 740px) {
     .place {
+        padding: 0;
         margin-left: auto;
         margin-right: auto;
         margin-bottom: 50px;

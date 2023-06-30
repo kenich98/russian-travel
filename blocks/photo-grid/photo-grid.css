@@ -11,7 +11,7 @@
     max-width: 1184px;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1279px) {
     .photo-grid {
         max-width: 928px;
         grid-template-rows: repeat(4, 1fr);
@@ -21,7 +21,7 @@
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 1023px) {
     .photo-grid {
         max-width: 720px;
         grid-template-rows: repeat(6, 1fr);
@@ -31,7 +31,7 @@
     }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 727px) {
     .photo-grid {
         max-width: 288px;
         grid-template-rows: repeat(12, 1fr);

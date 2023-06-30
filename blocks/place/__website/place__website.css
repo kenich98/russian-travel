@@ -28,7 +28,7 @@
     }
 }
 
-@media (max-width: 322px) {
+@media (max-width: 340px) {
     .place__website {
         margin-bottom: 32px;
         max-width: 288px;
