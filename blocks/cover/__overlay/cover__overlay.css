@@ -16,7 +16,6 @@
 .cover__overlay:before {
     background: #2A2C2F;
     background-position: center;
-    opacity: 0.3;
     content: "";
     position: absolute;
     top: 0;
