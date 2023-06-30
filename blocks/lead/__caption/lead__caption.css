@@ -10,6 +10,12 @@
     padding-top: 8px;
 }
 
+@media (max-width: 960px) {
+    .lead__caption {
+        padding-left: 48px;
+    }
+}
+
 @media (max-width: 768px) {
     .lead__caption {
         padding-left: 24px;
@@ -19,5 +25,6 @@
 @media (max-width: 320px) {
     .lead__caption {
         padding-left: 16px;
+        padding-top: 6px;
     }
 }

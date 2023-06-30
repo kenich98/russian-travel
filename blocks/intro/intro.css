@@ -10,7 +10,6 @@
 @media (max-width: 1024px) {
     .intro {
         max-width: 690px;
-        width: 100%;
         margin: 0;
         margin-top: 88px;
         margin-left: 3rem;
@@ -25,8 +24,13 @@
 
 @media (max-width: 767px) {
     .intro {
-        max-width: 288px;
         margin-top: 64px;
+    }
+}
+
+@media (max-width: 320px) {
+    .intro {
         margin-left: 16px;
+        max-width: 288px;
     }
 }

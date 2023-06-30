@@ -11,14 +11,14 @@
 @media (max-width: 1024px) {
     .place__paragraphs {
         max-width: 456px;
-        margin-left: 32px;
+        margin-left: 12px;
     }
 }
 
-@media (max-width: 940px) {
+@media (max-width: 768px) {
     .place__paragraphs {
         max-width: 352px;
-        margin-left: 28px;
+        margin-left: 6px;
     }
 }
 

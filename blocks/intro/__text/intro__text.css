@@ -14,13 +14,11 @@
     .intro__text {
         box-sizing: border-box;
         max-width: 720px;
-        width: 100%;
     }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 320px) {
     .intro__text {
         max-width: 288px;
-        width: 100%;
     }
 }
